@@ -33,7 +33,7 @@
 }
 
 .dark-mode {
-    --primary: #fc2651;
+    --primary: #0e2169;
     --primary-hover: #ff4d75;
     --primary-light: rgba(252, 38, 81, 0.15);
     --primary-lighter: rgba(252, 38, 81, 0.08);
@@ -57,9 +57,9 @@
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.6), 0 4px 6px -4px rgb(0 0 0 / 0.6);
     --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.7), 0 8px 10px -6px rgb(0 0 0 / 0.7);
     --shadow-glow: 0 0 20px rgba(252, 38, 81, 0.4);
-    --gradient-primary: linear-gradient(135deg, #fc2651 0%, #ff4d75 100%);
-    --gradient-accent: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
-    --gradient-surface: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    --gradient-primary: linear-gradient(135deg, #0e2169 0%, #0e2169 100%);
+    --gradient-accent: linear-gradient(135deg, #0e2169 0%, #0e2169 100%);
+    --gradient-surface: linear-gradient(135deg, #0e2169 0%, #0e2169 100%);
 }
 
 * {
@@ -80,8 +80,8 @@ body {
 }
 
 header {
-    background: var(--gradient-primary);
-    color: black;
+    background: #0e2169;
+    color: #0e2169;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -121,7 +121,7 @@ header {
     padding: 0.875rem 1rem;
     border: 0;
     border-radius: var(--radius);
-    background: var(--glass);
+    background: #0e2169;
     backdrop-filter: blur(20px);
     color: var(--text);
     font-size: 15px;
@@ -604,5 +604,6 @@ footer {
     }
 
 }
+
 
 
