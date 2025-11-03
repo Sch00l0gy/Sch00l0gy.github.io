@@ -135,6 +135,7 @@ function sortZones() {
         zones.sort((a, b) => (popularityData[b.id] || 0) - (popularityData[a.id] || 0));
     }
     zones.sort((a, b) => (a.id === -1 ? -1 : b.id === -1 ? 1 : 0));
+        zones = zones.filter(z => z.id !== -1);
     if (featuredContainer.innerHTML === "") {
         const featured = zones.filter(z => z.featured);
         displayFeaturedZones(featured);
@@ -615,3 +616,4 @@ HTMLCanvasElement.prototype.toDataURL = function (...args) {
     return "";
 
 };
+
