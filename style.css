@@ -34,7 +34,7 @@
 
 .dark-mode {
     --primary: #0e2169;
-    --primary-hover: #ff4d75;
+    --primary-hover: #0e2169;
     --primary-light: rgba(252, 38, 81, 0.15);
     --primary-lighter: rgba(252, 38, 81, 0.08);
     --accent: #a855f7;
@@ -604,6 +604,7 @@ footer {
     }
 
 }
+
 
 
 
